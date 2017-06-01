@@ -1,3 +1,16 @@
+
+ng new my-cool-proj
+ng build
+ng build --prod
+npm i -g angular-cli-ghpages
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/baraneetharan/springbootrest.git
+git push -u origin master
+ng build --prod --base-href https://baraneetharan.github.io/my-cool-proj/
+ngh
+
 # MyCoolProj
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
