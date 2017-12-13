@@ -1,8 +1,12 @@
 
 ng new my-cool-proj
+
 ng build
+
 ng build --prod
+
 npm i -g angular-cli-ghpages
+
 git init
 git add README.md
 git commit -m "first commit"
